@@ -13,31 +13,29 @@
 </head>
 <body>
     <div class="container">
-       <h1 class="text-center">Lindo 10</h1>
+        <h1 class="text-center">Lindo 10</h1>
         <div class="row">
-            <div class="col-md-3 col-md-offset-2">
-
+            <div class="col-md-push-1  col-md-6 col-xs-8">
                 <div class="form-group">
 					<label for="diez">A</label>
                 <input type="text" id="a" value="">
+                </div>
             </div>
-            </div>
-            <div class="col-md-3 col-md-offset-2">
+            <div class="col-md-6 col-xs-8">
                 <label for="uno">B</label>
                 <input type="text" id="b" value="">
             </div>
-            <div class="col-md-12 col-md-offset-5">
+            <div class=" col-md-push-2  col-md-12 col-xs-8">
                     <button onclick="evaluar()" >Calcular</button>
+            </div>
+            <div class="row col-md-push-1 col-md-12 col-xs-8 col-xs-push-1">
+                 Resultado: <input type="text" id="salida">
+            </div>
+            <div class=" col-md-push-2 col-md-12  col-md-12 col-xs-12 col-xs-push-1">
+                  <p>Mi Diez </p>    
             </div>
         </div>
     </div>
-    <div class="row col-md-12 col-md-offset-5">
-        Resultado: <input type="text" id="salida">
-    </div>
-    <div class="row">
-        <p class="text-center">Mi Diez </p>    
-    </div>
-
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </html>

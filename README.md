@@ -1,7 +1,6 @@
 # ejercicio-6
 Ejercicio - 6
 
-
 *Inicio: Mi diez*
 
 ## Ingreso datos
@@ -16,4 +15,5 @@ Ejercicio - 6
 - Si no 
          mostrar 0 // no es diez
      fin si
+     
 *Fin*
